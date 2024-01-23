@@ -14,6 +14,10 @@ class Player:
     def receive_winnings(self, winnings):
         self.balance += winnings
 
+    def __repr__(self):
+        return f"Player(name={self.name}, balance={self.balance})"
+
+
 class Casino:
     def __init__(self):
         self.players = []
@@ -35,6 +39,10 @@ class Casino:
             print(f"{player.name} wins {winnings}! {player.name} now has {player.balance}")
         else:
             print(f"{player.name} loses {bet_amount}! {player.name} now has {player.balance}")
+
+    def __repr__(self):
+        return f"Casino(players={self.players})"
+
 
 # Instantiate the Casino
 casino = Casino()
@@ -59,3 +67,8 @@ for player in casino.players:
 # Remove players from the casino
 casino.remove_player(player1)
 casino.remove_player(player2)
+
+# Print representations
+print(player1)
+print(player2)
+print(casino)
