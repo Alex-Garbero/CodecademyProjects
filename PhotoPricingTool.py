@@ -8,10 +8,14 @@ class Welcome:
 class Data:
     def __init__(self):
         pass
-
-Welcome.welcome()
+    def total_hours(self):
+        print("Input the total time of the photoshoot in hours.\n")
+        hours = input()
+        print("Your photoshoot will last " + hours + " hours.\n")
 
 # How many hours?
 # How many people?
 # What gear is needed?
 # How many photos? (Calculate hours of editing with this)
+test = Data()
+test.total_hours()
