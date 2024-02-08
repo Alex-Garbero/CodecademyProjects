@@ -67,11 +67,11 @@ class Data:
             print(item)
 
         # Print items from the dictionary that were not selected
-            not_selected_gear = [value for key, value in gear_options.items() if value not in selected_gear]
-            print("\n Available gear options not selected:")
-            print("\n--------------------------------------")
-            for item in not_selected_gear:
-                print(item)
+        not_selected_gear = [value for key, value in gear_options.items() if value not in selected_gear]
+        print("\n Available gear options not selected:")
+        print("\n--------------------------------------")
+        for item in not_selected_gear:
+            print(item)
 
         
 
