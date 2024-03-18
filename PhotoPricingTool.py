@@ -1,5 +1,7 @@
 # Portrait Photography Pricing Tool:
 
+import time
+
 class Welcome:
     def __init__(self):
         welcome_message = "Welcome to Alex's Photography Pricing tool!\n\n"
@@ -10,7 +12,7 @@ class Data:
         pass
 
     # How many hours?
-    def total_hours(self):
+    def photoshoot_time(self):
         print("Input the total time of the photoshoot in hours: ")
         hours = input()
         print("Your photoshoot will last " + hours + " hours.\n")
@@ -73,12 +75,26 @@ class Data:
         for item in not_selected_gear:
             print(item)
 
-        
+    # How many photos? (Calculate hours of editing with this)
+    def num_photos(self):
+        print("How many photos would the client like for this photoshoot?")
+        requested_photos = input()
+        hours_editing = float(requested_photos) * 0.2
+        print("This photoshoot will take " + str(hours_editing) + " hours.")
 
+    def calculate_total(self):
+        print("\nNow calculating total price")
+        time.sleep(1)
+        print(". ")
+        time.sleep(1)
+        print(". ")
+        time.sleep(1)
+        print(". ")
+        time.sleep(1)
+        print("Photoshoot will cost: ")
 
-
-# How many photos? (Calculate hours of editing with this)
 test = Data()
-#test.total_hours()
+#test.photoshoot_time()
 #test.num_people()
-test.select_gear()
+#test.select_gear()
+#test.num_photos()
