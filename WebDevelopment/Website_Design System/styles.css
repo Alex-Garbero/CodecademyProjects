@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "Dune Rise";
+    src: url(fonts/Dune-Rise/Dune_Rise.ttf);
+}
+@font-face {
+    font-family: "Made Evolve Sans Regular";
+    src: url(fonts/made_evolve_sans/MADE\ Evolve\ Sans\ Regular.otf);
+}
+
+body {
+    font-family: "Made Evolve Sans Regular";
+    margin: 0 10%;
+    background-color: #FCF7EE;
+}
+
+.container {
+    border: 2px solid #250E04;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.color-container {
+    width: 100%;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.ucla-blue {
+    background-color: #3576AE;
+    color: #F0F8F9;
+}
+
+.moonstone {
+    background-color: #68AEC9;
+}
+
+.non-photo-blue {
+    background-color: #A9D8DE;
+}
+
+.sunset {
+    background-color: #E9CB8E;
+}
+
+.brown-sugar {
+    background-color: #A5663A;
+    color: #FCF7EE;
+}
+
+.seal-brown {
+    background-color: #66280C;
+    color: #FCF7EE;
+}
+
+.font-panel {
+    width: 45%;
+    display: inline-block;
+}
+
+.font-label {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.dune-rise {
+    font-family: 'Dune Rise', sans-serif;
+}
+
+.made-evolve {
+    font-family: 'Made Evolve Sans Regular', sans-serif;
+}
+
+.text-panel h1 {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Dune Rise', sans-serif;
+}
+
+.text-panel h2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Made Evolve Sans Regular', sans-serif;
+}
+
+.text-panel p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Made Evolve Sans Regular', sans-serif;
+}
+
+h1 {
+    font-family: 'Dune Rise', sans-serif;
+}
